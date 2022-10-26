@@ -561,7 +561,7 @@ c * {
 .openbtn {
     font-size: 20px;
     cursor: pointer;
-    background-color: black;
+    background-color: black !important;
     color: white;
     padding: 10px 15px;
     border: none;
