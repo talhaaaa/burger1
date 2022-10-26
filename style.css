@@ -1,0 +1,981 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.start {
+    background-image: url("images/background.png");
+    background-size: cover;
+    width: 100%;
+
+}
+
+.start1 {
+
+    padding-top: 30px;
+
+}
+
+.start2 {
+    display: flex;
+    justify-content: end;
+    padding-top: 10px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.cycle {
+    display: flex;
+    padding-top: 10px;
+    justify-content: end;
+
+}
+
+.logop1 {
+    padding-top: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #3d2514;
+}
+
+
+
+.info {
+    display: flex;
+    justify-content: end;
+}
+
+.info1 {
+    display: flex;
+}
+
+.info1 li {
+    padding-left: 50px;
+    list-style: none;
+}
+
+.info li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Bebas Neue';
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #3d2514;
+
+}
+
+.burger {
+    background-image: url("images/background.png");
+    background-size: cover;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.ad {
+    display: inline-block;
+    color: black;
+    margin-bottom: 15px;
+    border: 3px dashed #3d2514;
+    padding: 10px;
+    color: #3d2514;
+}
+
+.advert {
+    margin-left: 50px;
+}
+
+.menu1 {
+    font-size: 100px;
+    color: black;
+    line-height: 0.9;
+    font-family: 'Alfa Slab One';
+    color: #3d2514;
+}
+
+.days {
+    font-size: 50px;
+    display: inline-block;
+    color: black;
+    line-height: 0.9;
+    font-family: 'Alfa Slab One';
+    color: #3d2514;
+
+}
+
+
+.rside {
+    display: flex;
+    justify-content: end;
+}
+
+.rside img {
+
+    width: 650px;
+
+
+}
+
+.burger-menu {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.limg {
+
+    background-image: url(images/t3.png);
+    background-size: cover;
+    width: 100%;
+    height: 412px;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.text1 {
+    color: white;
+}
+
+.uper-text1 {
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: 'Bebas Neue';
+
+}
+
+.lower-text1 {
+    font-size: 40px;
+    padding-left: 20px;
+    font-family: 'Bebas Neue';
+
+
+}
+
+
+
+.rside1 {
+
+    background-image: url(images/t2.png);
+    width: 100%;
+    height: 190px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30px;
+    color: white;
+    border-radius: 10px;
+}
+
+.uper-text3 {
+    font-size: 15px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: 'Bebas Neue';
+}
+
+
+.lower-text3 {
+    font-size: 30px;
+    padding-left: 20px;
+    font-family: 'Bebas Neue';
+}
+
+
+.lower-text4 {
+    font-size: 30px;
+    padding-left: 20px;
+    font-family: 'Bebas Neue';
+}
+
+
+.rside2 {
+
+    background-image: url(images/t1.png);
+    background-size: cover;
+    width: 100%;
+    height: 190px;
+    background-position: center;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.uper-text2 {
+    font-size: 15px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: 'Bebas Neue';
+}
+
+.lower-text2 {
+    font-size: 30px;
+    padding-left: 20px;
+    font-family: 'Bebas Neue';
+}
+
+.burger-list {
+
+    padding-bottom: 60px;
+}
+
+.best-burger {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.choose {
+    font-size: 60px;
+    color: #3d2514;
+    font-family: 'Alfa Slab One';
+    font-size: 50px;
+}
+
+.l1 {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #ffcb5d;
+    display: inline-block;
+    border-radius: 2px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: #3d2514;
+    font-family: 'Bebas Neue';
+}
+
+.l2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    font-family: 'Montserrat';
+}
+
+.b1 {
+    text-align: center;
+}
+
+.dis {
+    font-size: 30px;
+}
+
+.b1 .dis {
+
+    font-family: 'Bebas Neue';
+    color: #3d2514;
+}
+
+.dis1 {
+    font-size: 2rem;
+    font-family: 'Bebas Neue';
+    color: #3d2514;
+}
+
+.dis-2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+
+    font-family: 'Montserrat';
+    padding: 0;
+}
+
+.dis-3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+
+    font-family: 'Montserrat';
+    padding: 0;
+}
+
+.dis-1 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: 'Montserrat';
+    padding: 0;
+}
+
+.menu-01 {
+    width: 70%;
+}
+
+.b1 .or1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    box-shadow: none;
+    font-weight: 500;
+    font-family: 'Alfa Slab One';
+
+
+}
+
+.b2 {
+    text-align: center;
+}
+
+.b2 .or2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+    background-color: red;
+    border: 1px solid red;
+    box-shadow: none;
+    color: white;
+    font-weight: 500;
+    font-family: 'Alfa Slab One';
+
+
+
+}
+
+.b3 {
+    text-align: center;
+}
+
+.b3 .or3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+    background-color: red;
+    border: 1px solid red;
+    box-shadow: none;
+    color: white;
+    font-weight: 500;
+    font-family: 'Alfa Slab One';
+}
+
+.b3 .dis2 {
+    font-family: 'Bebas Neue';
+    color: #3d2514;
+}
+
+.bpic1 {
+    width: 80%;
+}
+
+.discover {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #3d2514;
+}
+
+.burger-info {
+    padding-top: 20px;
+}
+
+.bpic {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.i1 {
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+}
+
+.i2 {
+    font-family: 'Alfa Slab One';
+}
+
+.i3 {
+    padding-top: 10px;
+    font-family: 'Montserrat';
+}
+
+.data {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.booking {
+    text-align: center;
+}
+
+.res1 {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-family: 'Alfa Slab One';
+    color: #3d2514;
+}
+
+.res {
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #3d2514;
+
+}
+
+.B1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    background-color: red;
+    border: 1px solid red;
+    box-shadow: none;
+    color: white;
+
+    font-family: 'Alfa Slab One';
+    letter-spacing: 1px;
+}
+
+.footer {
+    background-image: url("images/b10.jpg");
+    background-size: cover;
+    height: 525px;
+}
+
+.banner-content {
+    text-align: start;
+    color: white;
+    padding-top: 32px;
+    padding-left: 80px;
+
+}
+
+.rate {
+    padding-top: 50px;
+    font-family: 'Montserrat';
+
+}
+
+.b12 {
+    font-family: 'Bebas Neue';
+    letter-spacing: 1px;
+}
+
+.b12 i {
+    font-size: 70px;
+    margin-right: 10px;
+}
+
+.p2 {
+    display: flex;
+    justify-content: start;
+    padding-top: 100px;
+
+
+    color: white;
+}
+
+.inner {
+    padding-top: 90px;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+.location {
+    color: white;
+    padding-top: 90px;
+    display: flex;
+    justify-content: end;
+    padding-right: 70px;
+    font-family: 'Bebas Neue';
+    letter-spacing: 1px;
+
+}
+
+.location1 {
+    color: white;
+
+    display: flex;
+    justify-content: end;
+    padding-right: 100px;
+    margin-right: 25px;
+    font-family: 'Bebas Neue';
+    letter-spacing: 1px;
+
+}
+
+
+
+.sidepanel {
+    height: 100vh;
+    /* Specify a height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: #111;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    background-color: rgb(255, 203, 93);
+    /* 0.5 second transition effect to slide in the sidepanel */
+}
+
+/* The sidepanel links */
+.sidepanel a {
+    padding: 0px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #3d2514;
+    display: block;
+    transition: 0.3s;
+    display: flex;
+    font-family: 'Bebas Neue';
+    letter-spacing: 1px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidepanel a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style the button that is used to open the sidepanel */
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(255, 203, 93);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+
+.toggside {
+    display: none;
+
+}
+
+
+
+
+
+@media (max-width: 1199px) {
+    .limg {
+        height: 325px;
+    }
+
+    .rside2 {
+        height: 148px;
+    }
+
+    .rside1 {
+        height: 147px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .rside img {
+        width: 500px;
+    }
+
+    .footer {
+        height: 436px;
+    }
+
+    .p2 {
+        padding-top: 20px;
+    }
+
+    .lower-text1 {
+        font-size: 22px;
+    }
+
+    .uper-text1 {
+        font-size: 18px;
+    }
+
+    .lower-text3 {
+        font-size: 24px;
+    }
+
+    .lower-text4 {
+        font-size: 24px;
+    }
+
+    .lower-text2 {
+        font-size: 24px;
+    }
+
+    .choose {
+        font-size: 45px;
+    }
+
+    .l1 {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .i3 {
+        font-size: 14px;
+    }
+
+    .bpic1 {
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 991px) {
+    .rside1 {
+        height: 121px;
+    }
+
+    .rside2 {
+        height: 110px;
+    }
+
+    .limg {
+        height: 260px;
+    }
+
+    .lower-text1 {
+        font-size: 16px;
+    }
+
+    .uper-text1 {
+        font-size: 14px;
+    }
+
+    .lower-text2 {
+        font-size: 19px;
+    }
+
+    .uper-text2 {
+        font-size: 11px;
+    }
+
+    .uper-text3 {
+        font-size: 9px;
+    }
+
+    .lower-text3 {
+        font-size: 19px;
+    }
+
+    .lower-text4 {
+        font-size: 19px;
+    }
+
+    .toggside {
+        display: block !important;
+        text-align: end;
+        padding-top: 30px;
+        padding-right: 10px;
+    }
+
+    .start2 {
+        display: none;
+    }
+
+    .discover {
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+
+    .burger-list {
+        padding-top: 0px;
+    }
+
+    .menu1 {
+        font-size: 80px;
+    }
+
+    .days {
+        font-size: 50px;
+    }
+
+
+    .inner {
+        padding-top: 0px;
+        margin-right: 50px;
+        margin-top: 0px;
+    }
+
+    .location {
+        padding-top: 0px;
+    }
+}
+
+@media(max-width: 768px) {
+    .rside img {
+        width: 350px;
+    }
+
+    .menu1 {
+        font-size: 70px;
+    }
+
+    .days {
+        font-size: 40px;
+    }
+
+    .p2 {
+        padding-top: 0px;
+    }
+
+    .burger-list {
+        padding-bottom: 0px;
+    }
+
+    .discover {
+        padding-bottom: 0px;
+        padding-top: 60px;
+    }
+
+}
+
+@media(max-width: 767px) {
+    .l2 {
+        padding-bottom: 30px;
+    }
+
+    .choose {
+        font-size: 30px;
+    }
+
+    .l1 {
+        font-size: 18px;
+    }
+
+    .b2 {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .b3 {
+        padding-top: 20px;
+    }
+
+    .b1 {
+        padding-bottom: 20px;
+    }
+
+    .dis {
+        padding-top: 0px;
+
+    }
+
+    .dis1 {
+        padding-top: 0px;
+    }
+
+    .dis2 {
+        padding-top: 0px;
+    }
+
+    .toggside {
+        position: absolute;
+        top: 0px;
+        right: 8px;
+    }
+
+    .rside img {
+        width: 600px;
+    }
+
+    .pic1 {
+        margin-left: 25px;
+    }
+}
+
+@media(max-width: 640px) {
+    .i3 {
+        font-size: 12px;
+    }
+
+    .menu1 {
+        font-size: 65px;
+    }
+}
+
+@media(max-width: 560px) {
+    .burger-menu {
+        padding-bottom: 0px;
+    }
+
+    .burger-list {
+        padding-top: 60px;
+    }
+
+    .bpic1 {
+        width: 100%;
+    }
+
+    .rside img {
+        width: 550px;
+    }
+}
+
+@media(max-width: 414px) {
+    .rside img {
+        margin-left: 0px;
+        width: 375px;
+    }
+
+    .footer {
+        height: 530px;
+    }
+
+    .menu1 {
+        font-size: 53px;
+    }
+
+    .bpic1 {
+        height: 250px;
+        width: 100%;
+    }
+
+    .footer {
+        height: 520px;
+    }
+
+    .banner-content {
+        padding-left: 0px;
+    }
+
+    .advert {
+        margin-left: 25px;
+    }
+
+    .b12 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inner {
+        display: inline-block;
+    }
+
+    .pic1 {
+        margin-left: 0;
+    }
+
+
+}
+
+@media(max-width:375px) {
+    .location1 {
+        padding-right: 100px;
+        margin-right: -21px;
+    }
+
+    .location {
+        padding-right: 0px;
+    }
+
+    .footer {
+        height: 640px;
+    }
+
+    .advert {
+        margin-left: 0px;
+    }
+
+    .pic1 {
+        width: 75%;
+
+
+    }
+
+    .location {
+        justify-content: left;
+    }
+}
+
+@media(max-width:360px) {
+    .bpic1 {
+        height: 215px;
+        width: 100%;
+    }
+
+
+    .location1 {
+        margin-right: -22px;
+    }
+
+    .l1 {
+        font-size: 15px;
+    }
+
+    .choose {
+        font-size: 30px;
+    }
+
+    .location {
+        justify-content: left;
+
+    }
+}
+
+@media(max-width: 320px) {
+    .rside img {
+        width: 310px;
+    }
+
+    .limg {
+        height: 260px;
+    }
+
+    .bpic1 {
+        height: 180px;
+        width: 100%;
+    }
+
+    .location1 {
+        margin-right: -60px;
+        justify-content: start;
+    }
+
+    .l1 {
+        font-size: 13px;
+    }
+
+    .choose {
+        font-size: 26px;
+    }
+
+    .pic1 {
+        width: 70%;
+    }
+
+    .toggside {
+        position: absolute;
+        top: 0px;
+        right: 11px;
+    }
+
+
+}
